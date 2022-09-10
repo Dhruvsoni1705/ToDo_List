@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My new ToDo list</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app">
+        <div>
+            <header>
+                <h1>Dhruv's To Do list</h1>
+            </header>
+        </div>
+                   
+        </div>
+        
+        <div class="input-container">
+            <input name="name" class="todo-input" placeholder="Enter task name" type="text">
+            <button class="add-list">Add to List</button>
+                <select class="filter">
+                    <option class="all" value="1">All</option>
+                    <option class="remain" value="2">Remain</option>
+                    <option class="done" value="3">Completed</option>
+                </select>  
+        </div>
+        <div class="todo-list_cointainer">
+            <ul class="todo-list"></ul>
+        </div>
+        
+    </div>
+ 
+    <script src="javascript/list.js"></script>
+    <script src="javascript/storage.js"></script>
+    <script src="javascript/app.js"></script>
+</body>
+</html>
